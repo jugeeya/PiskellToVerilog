@@ -1,7 +1,7 @@
 # PiskellToVerilog
 ## Usage
 ```Bash
-python3 path/to/piskell/file/ > path/to/output/file
+python3 piskelTranslate.py path/to/piskell/file/ > path/to/output/file
 ```
 The Piskell file must be one that has been exported as a C file, one of the many save options given on the site. The output will be a full multidimensional register array that can be copied into
 Verilog and used as such.
